@@ -1,65 +1,51 @@
-<!-- TITLE -->
+<!-- Título -->
+# Superclasses e Subclasses
 
-# CANVAS E SVG
+***Conteúdo da Aula:***
 
-<!-- TABLE OF CONTENTS -->
+Quando aplicamos a herança na modelagem de nossas classes, nós passamos a ter dois elementos envolvidos:
 
-<!-- ## TABELA DE CONTEÚDO -->
+* Nós passamos a ter a **superclasse** ou **classe-pai**.
+* A superclasse é a classe que serve de base para que outras classes a herdem;
+* Nós passamos a ter também a **subclasse** ou **classe-filha**.
+* A subclasse é a classe que herda atributos e métodos de uma superclasse.
 
-<!-- OVERVIEW -->
+Vamos ao seguinte exemplo:
 
-<!-- ## VISTA POR CIMA -->
+* Vamos imaginar que nós temos uma `classe Mamífero`, que contém atributos comuns para todos os mamíferos, como por exemplo:
+  * Espécie;
+  * Tempo de gestação;
+  * Além do método mamar.
 
-<!-- SCREENSHOT -->
+Agora, nós também podemos ter uma `classe Cachorro`.
 
-<!-- ### FOTO DA TELA -->
+Perceba que a `classe Cachorro` tem todos os atributos e métodos que a `classe Mamífero` tem, além de possui atributos próprios (por exemplo: cor do pelo) e métodos próprios (como por exemplo, latir).
 
-<!-- LINKS -->
+Não faz sentido nós repetirmos o código que existe dentro da `classe Mamífero` dentro da `classe Cachorro`.
 
-<!-- ### LINKS -->
+Na verdade, de maneira geral, repetição de código não é um bom sinal dentro da aplicação, além de dificultar e muito a manutenção da aplicação no futuro.
 
-<!-- MY PROCESS -->
+Como nós podemos resolver esta situação sem a repetição de código?
 
-<!-- ## MEU PROCESSO -->
+Nós podemos fazer com que a `classe Cachorro` herde a `classe Mamífero`.
 
-<!-- BUILT WITH -->
+Dessa maneira, a `classe Cachorro` conterá tudo que a `classe Mamífero` possui, só que sem a repetição de código que iria ocorrer.
 
-<!-- ### CONSTRUIDO COM -->
+Neste caso, a `classe Mamífero` seria a nossa **superclasse**, enquanto a `classe Cachorro` seria a nossa **subclasse**.
 
-<!-- WHAT I LEARNED -->
+<!-- Informações -->
+## &#8505; Informações
 
-<!-- ### O QUE APRENDI -->
-
-<!-- CONTINUED DEVELOPMENT -->
-
-<!-- ### DESENVOLVIMENTO CONTÍNUO -->
-
-<!-- USEFUL -->
-
-<!-- ### RECURSOS ÚTEIS -->
-
-<!-- AUTHOR -->
-
-<!-- ## AUTOR -->
-
-<!-- ACKNOWLEDGMENTS -->
-
-<!-- ## AGRADECIMENTOS -->
-
-<!-- INFORMATION -->
-
-## INFORMAÇÕES
-
-![Visitors](https://api.visitorbadge.io/api/visitors?path=Devsgeeknerd%2Fcanvas-e-svg-front-end-zp&label=Visitantes&labelColor=%23f9e64f&countColor=%23008000&style=plastic "Total de Visitas")
+![Visitors](https://api.visitorbadge.io/api/visitors?path=Devsgeeknerd%2Fcla-sup-sub-her-log-ori-obj-com-bas&label=Visitantes&labelColor=%23700070&labelStyle=none&countColor=%23000fff&style=plastic&color=%23ffffff "Total de Visitantes")
 &nbsp;
-![followrs](https://img.shields.io/github/followers/Devsgeeknerd?style=plastic&label=SEGUIDORES&labelColor=f9e64f "Total de Seguidores")
+![Followers](https://img.shields.io/github/followers/Devsgeeknerd?style=p&label=Seguidores&labelColor=800080&color=000fff "Total de Seguidores")
 &nbsp;
-![watchers](https://img.shields.io/github/watchers/Devsgeeknerd/canvas-e-svg-front-end-zp?style=plastic&label=OBSERVADORES&labelColor=f9e64f "Total de Observadores")
+![Watchers](https://img.shields.io/github/watchers/Devsgeeknerd/cla-sup-sub-her-log-ori-obj-com-bas?style=p&label=Observadores&labelColor=800080&color=000fff "Total de Observadores")
 &nbsp;
-![stars](https://img.shields.io/github/stars/Devsgeeknerd/canvas-e-svg-front-end-zp?style=plastic&label=ESTRELAS&labelColor=f9e64f "Total de Estrelas Recebidas")
+![Stars](https://img.shields.io/github/stars/Devsgeeknerd/cla-sup-sub-her-log-ori-obj-com-bas?style=p&label=Estrelas&labelColor=800080&color=000fff "Total de Estrelas")
 &nbsp;
-![forks](https://img.shields.io/github/forks/Devsgeeknerd/canvas-e-svg-front-end-zp?style=plastic&label=BIFURCAÇÕES&labelColor=f9e64f "Total de Bifurcações")
+![Forks](https://img.shields.io/github/forks/Devsgeeknerd/cla-sup-sub-her-log-ori-obj-com-bas?style=p&label=Bifurcações&labelColor=800080&color=000fff "Total de Bifurcações")
 &nbsp;
-![repo size](https://img.shields.io/github/repo-size/Devsgeeknerd/canvas-e-svg-front-end-zp?style=plastic&label=TAMANHO&labelColor=f9e64f "Tamanho do Repositório")
+![Repo Size](https://img.shields.io/github/repo-size/Devsgeeknerd/cla-sup-sub-her-log-ori-obj-com-bas?style=p&label=Tamanho&labelColor=800080&color=000fff "Tamanho do Repositório")
 &nbsp;
-![license](https://img.shields.io/github/license/Devsgeeknerd/canvas-e-svg-front-end-zp?style=plastic&label=LICENÇA&labelColor=f9e64f "Licença do Repositório")
+![License](https://img.shields.io/github/license/Devsgeeknerd/cla-sup-sub-her-log-ori-obj-com-bas?style=p&label=Licença&labelColor=800080&color=000fff "Licença do Repositório")
