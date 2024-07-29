@@ -59,9 +59,6 @@ Os alunos aprenderão a implementar superclasses e subclasses, além de compreen
     * Criação de uma hierarquia de classes para veículos.
   * Exemplo 2:
     * Implementação de uma hierarquia de classes para funcionários de uma empresa.
-
-* **Exercícios Práticos:**
-
   * Desenvolver uma hierarquia de classes para animais e seus comportamentos.
   * Criar subclasses específicas e adicionar métodos e atributos próprios.
 
