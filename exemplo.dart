@@ -24,10 +24,25 @@ class Carro extends Veiculo {
   ) : super(marca, ano);
 
   @override
-  void mostrarDetalhes(){
+  void mostrarDetalhes() {
     super.mostrarDetalhes();
     print('Portas: $portas');
   }
 }
 
 // Definindo a subclasse Moto.
+class Moto extends Veiculo {
+  bool temCarenagem;
+
+  Moto(
+    String marca,
+    int ano,
+    this.temCarenagem,
+  ) : super(marca, ano);
+
+  @override
+  void mostrarDetalhes() {
+    super.mostrarDetalhes();
+    print('Tem carenagem: $temCarenagem');
+  }
+}
