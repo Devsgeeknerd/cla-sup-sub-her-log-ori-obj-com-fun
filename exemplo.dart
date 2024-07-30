@@ -46,3 +46,11 @@ class Moto extends Veiculo {
     print('Tem carenagem: $temCarenagem');
   }
 }
+
+void main(List<String> args) {
+  Carro meuCarro = Carro('Toyota', 2025, 4);
+  Moto minhaMoto = Moto('Honda', 2018, true);
+
+  meuCarro.mostrarDetalhes();
+  minhaMoto.mostrarDetalhes();
+}
