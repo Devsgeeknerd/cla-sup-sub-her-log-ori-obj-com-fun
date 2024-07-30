@@ -8,11 +8,26 @@ class Veiculo {
     this.ano,
   );
 
-  void mostrarDetalhe() {
+  void mostrarDetalhes() {
     print('Marca: $marca, Ano: $ano');
   }
 }
 
 // Definindo a subclasse Carro.
+class Carro extends Veiculo {
+  int portas;
+
+  Carro(
+    String marca,
+    int ano,
+    this.portas,
+  ) : super(marca, ano);
+
+  @override
+  void mostrarDetalhes(){
+    super.mostrarDetalhes();
+    print('Portas: $portas');
+  }
+}
 
 // Definindo a subclasse Moto.
